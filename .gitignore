@@ -1,0 +1,59 @@
+# Node modules (never push these)
+node_modules/
+
+# Environment variables (API keys, DB URIs, etc.)
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+log.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output (if using TypeScript or build tools)
+dist/
+build/
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage reports (for testing)
+coverage/
+
+# MongoDB dump data (if exporting)
+dump/
+
+# Misc backup or temporary files
+*.tgz
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Project-specific notes/data
+prototype.txt
+task.txt
+MOCK_DATA.json
+
+# Yarn lock (if using npm only)
+yarn.lock
