@@ -5,14 +5,10 @@ A beginner-friendly RESTful API for user management built with Node.js, Express,
 
 
 
-├── controllers/        # Handles route logic
-│   └── user.js
-├── models/             # Mongoose schema
-│   └── user.js
-├── routes/             # Express routes
-│   └── user.js
-├── plugins/            # Custom middleware
-│   └── plugins.js
+├── controllers/ user.js # Handles route logic
+├── models/user.js      # Mongoose schema
+├── routes/user.js      # Express routes
+├── plugins/plugins.js  # Custom middleware
 ├── log.txt             # Auto-generated request logs
 ├── index.js            # App entry point
 
@@ -37,9 +33,6 @@ Defined in models/user.js, it includes fields like firstName, lastName, email, g
 4. Routes and Controllers
 I used Express's router.route() to group methods together:
 
-js
-Copy
-Edit
 router.route("/:id")
   .get(handleGetUserById)
   .patch(handleUpdateUserById)
@@ -52,10 +45,6 @@ I used Postman to test all endpoints and debug request/response flow. Here are s
 Create a user
 POST /api/users
 With body:
-
-json
-Copy
-Edit
 {
   "first_name": "sohaib",
   "last_name": "minhas",
